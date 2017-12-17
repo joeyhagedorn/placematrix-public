@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>Placement Log</title>
+</head>
+<body>
+{% block content %}
+<pre>
+{{ bitmap }}<br/>
+User Count: {{ usercount }}<br/>
+Placement Count: {{ num }}<br/>
+{% for z in results %}{{ sha256(z.user) }},&nbsp;{{z.timestamp}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;({{z.x}},&nbsp;{{z.y}})&nbsp;<br/>{% endfor %}
+</pre>
+{% endblock %}
+</body>
+</html>

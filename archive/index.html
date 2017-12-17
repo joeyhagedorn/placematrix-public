@@ -1,0 +1,183 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Place Matrix [Archive] by Joey Hagedorn</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=680, initial-scale=0.6">
+
+        <!-- Place favicon.ico in the root directory -->
+
+<!-- replace static with static before uploading-->
+
+        <link rel="stylesheet" href="static/css/normalize.css">
+        <link rel="stylesheet" href="static/css/main.css">
+        <script src="https://apis.google.com/js/platform.js"></script>
+        <script src="static/js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="static/js/plugins.js"></script>
+        <script src="static/js/placematrix.js"></script>
+    </head>
+    <body onload="initialize();">
+
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <h1>Place Matrix</h1><tt><h2>[archive]</h2></tt>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/d5RXDla5UIU?rel=0&amp;showinfo=0&autoplay=1&playsinline=1" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+        <p>You can toggle one LED immediately and watch it reflected in the live video stream above. Your next chance is based on the number of participants. There is a slight delay in the live stream which adds to the challenge.</p>
+        <section class="grid">
+            <section class="row">
+                <button class="tile 0000" onclick="requestToggle('0000');"></button>
+                <button class="tile 0100" onclick="requestToggle('0100');"></button>
+                <button class="tile 0200" onclick="requestToggle('0200');"></button>
+                <button class="tile 0300" onclick="requestToggle('0300');"></button>
+                <button class="tile 0400" onclick="requestToggle('0400');"></button>
+                <button class="tile 0500" onclick="requestToggle('0500');"></button>
+                <button class="tile 0600" onclick="requestToggle('0600');"></button>
+                <button class="tile 0700" onclick="requestToggle('0700');"></button>
+                <button class="tile 0800" onclick="requestToggle('0800');"></button>
+                <button class="tile 0900" onclick="requestToggle('0900');"></button>
+                <button class="tile 1000" onclick="requestToggle('1000');"></button>
+                <button class="tile 1100" onclick="requestToggle('1100');"></button>
+                <button class="tile 1200" onclick="requestToggle('1200');"></button>
+                <button class="tile 1300" onclick="requestToggle('1300');"></button>
+                <button class="tile 1400" onclick="requestToggle('1400');"></button>
+                <button class="tile 1500" onclick="requestToggle('1500');"></button>
+                <button class="tile 1600" onclick="requestToggle('1600');"></button>
+                <button class="tile 1700" onclick="requestToggle('1700');"></button>
+                <button class="tile 1800" onclick="requestToggle('1800');"></button>
+                <button class="tile 1900" onclick="requestToggle('1900');"></button>
+                <button class="tile 2000" onclick="requestToggle('2000');"></button>
+                <button class="tile 2100" onclick="requestToggle('2100');"></button>
+                <button class="tile 2200" onclick="requestToggle('2200');"></button>
+                <button class="tile 2300" onclick="requestToggle('2300');"></button>
+            </section>
+            <section class="row">
+                <button class="tile 0001" onclick="requestToggle('0001');"></button>
+                <button class="tile 0101" onclick="requestToggle('0101');"></button>
+                <button class="tile 0201" onclick="requestToggle('0201');"></button>
+                <button class="tile 0301" onclick="requestToggle('0301');"></button>
+                <button class="tile 0401" onclick="requestToggle('0401');"></button>
+                <button class="tile 0501" onclick="requestToggle('0501');"></button>
+                <button class="tile 0601" onclick="requestToggle('0601');"></button>
+                <button class="tile 0701" onclick="requestToggle('0701');"></button>
+                <button class="tile 0801" onclick="requestToggle('0801');"></button>
+                <button class="tile 0901" onclick="requestToggle('0901');"></button>
+                <button class="tile 1001" onclick="requestToggle('1001');"></button>
+                <button class="tile 1101" onclick="requestToggle('1101');"></button>
+                <button class="tile 1201" onclick="requestToggle('1201');"></button>
+                <button class="tile 1301" onclick="requestToggle('1301');"></button>
+                <button class="tile 1401" onclick="requestToggle('1401');"></button>
+                <button class="tile 1501" onclick="requestToggle('1501');"></button>
+                <button class="tile 1601" onclick="requestToggle('1601');"></button>
+                <button class="tile 1701" onclick="requestToggle('1701');"></button>
+                <button class="tile 1801" onclick="requestToggle('1801');"></button>
+                <button class="tile 1901" onclick="requestToggle('1901');"></button>
+                <button class="tile 2001" onclick="requestToggle('2001');"></button>
+                <button class="tile 2101" onclick="requestToggle('2101');"></button>
+                <button class="tile 2201" onclick="requestToggle('2201');"></button>
+                <button class="tile 2301" onclick="requestToggle('2301');"></button>
+            </section>
+            <section class="row">
+                <button class="tile 0002" onclick="requestToggle('0002');"></button>
+                <button class="tile 0102" onclick="requestToggle('0102');"></button>
+                <button class="tile 0202" onclick="requestToggle('0202');"></button>
+                <button class="tile 0302" onclick="requestToggle('0302');"></button>
+                <button class="tile 0402" onclick="requestToggle('0402');"></button>
+                <button class="tile 0502" onclick="requestToggle('0502');"></button>
+                <button class="tile 0602" onclick="requestToggle('0602');"></button>
+                <button class="tile 0702" onclick="requestToggle('0702');"></button>
+                <button class="tile 0802" onclick="requestToggle('0802');"></button>
+                <button class="tile 0902" onclick="requestToggle('0902');"></button>
+                <button class="tile 1002" onclick="requestToggle('1002');"></button>
+                <button class="tile 1102" onclick="requestToggle('1102');"></button>
+                <button class="tile 1202" onclick="requestToggle('1202');"></button>
+                <button class="tile 1302" onclick="requestToggle('1302');"></button>
+                <button class="tile 1402" onclick="requestToggle('1402');"></button>
+                <button class="tile 1502" onclick="requestToggle('1502');"></button>
+                <button class="tile 1602" onclick="requestToggle('1602');"></button>
+                <button class="tile 1702" onclick="requestToggle('1702');"></button>
+                <button class="tile 1802" onclick="requestToggle('1802');"></button>
+                <button class="tile 1902" onclick="requestToggle('1902');"></button>
+                <button class="tile 2002" onclick="requestToggle('2002');"></button>
+                <button class="tile 2102" onclick="requestToggle('2102');"></button>
+                <button class="tile 2202" onclick="requestToggle('2202');"></button>
+                <button class="tile 2302" onclick="requestToggle('2302');"></button>
+            </section>
+            <section class="row">
+                <button class="tile 0003" onclick="requestToggle('0003');"></button>
+                <button class="tile 0103" onclick="requestToggle('0103');"></button>
+                <button class="tile 0203" onclick="requestToggle('0203');"></button>
+                <button class="tile 0303" onclick="requestToggle('0303');"></button>
+                <button class="tile 0403" onclick="requestToggle('0403');"></button>
+                <button class="tile 0503" onclick="requestToggle('0503');"></button>
+                <button class="tile 0603" onclick="requestToggle('0603');"></button>
+                <button class="tile 0703" onclick="requestToggle('0703');"></button>
+                <button class="tile 0803" onclick="requestToggle('0803');"></button>
+                <button class="tile 0903" onclick="requestToggle('0903');"></button>
+                <button class="tile 1003" onclick="requestToggle('1003');"></button>
+                <button class="tile 1103" onclick="requestToggle('1103');"></button>
+                <button class="tile 1203" onclick="requestToggle('1203');"></button>
+                <button class="tile 1303" onclick="requestToggle('1303');"></button>
+                <button class="tile 1403" onclick="requestToggle('1403');"></button>
+                <button class="tile 1503" onclick="requestToggle('1503');"></button>
+                <button class="tile 1603" onclick="requestToggle('1603');"></button>
+                <button class="tile 1703" onclick="requestToggle('1703');"></button>
+                <button class="tile 1803" onclick="requestToggle('1803');"></button>
+                <button class="tile 1903" onclick="requestToggle('1903');"></button>
+                <button class="tile 2003" onclick="requestToggle('2003');"></button>
+                <button class="tile 2103" onclick="requestToggle('2103');"></button>
+                <button class="tile 2203" onclick="requestToggle('2203');"></button>
+                <button class="tile 2303" onclick="requestToggle('2303');"></button>
+            </section>
+            <section class="row">
+                <button class="tile 0004" onclick="requestToggle('0004');"></button>
+                <button class="tile 0104" onclick="requestToggle('0104');"></button>
+                <button class="tile 0204" onclick="requestToggle('0204');"></button>
+                <button class="tile 0304" onclick="requestToggle('0304');"></button>
+                <button class="tile 0404" onclick="requestToggle('0404');"></button>
+                <button class="tile 0504" onclick="requestToggle('0504');"></button>
+                <button class="tile 0604" onclick="requestToggle('0604');"></button>
+                <button class="tile 0704" onclick="requestToggle('0704');"></button>
+                <button class="tile 0804" onclick="requestToggle('0804');"></button>
+                <button class="tile 0904" onclick="requestToggle('0904');"></button>
+                <button class="tile 1004" onclick="requestToggle('1004');"></button>
+                <button class="tile 1104" onclick="requestToggle('1104');"></button>
+                <button class="tile 1204" onclick="requestToggle('1204');"></button>
+                <button class="tile 1304" onclick="requestToggle('1304');"></button>
+                <button class="tile 1404" onclick="requestToggle('1404');"></button>
+                <button class="tile 1504" onclick="requestToggle('1504');"></button>
+                <button class="tile 1604" onclick="requestToggle('1604');"></button>
+                <button class="tile 1704" onclick="requestToggle('1704');"></button>
+                <button class="tile 1804" onclick="requestToggle('1804');"></button>
+                <button class="tile 1904" onclick="requestToggle('1904');"></button>
+                <button class="tile 2004" onclick="requestToggle('2004');"></button>
+                <button class="tile 2104" onclick="requestToggle('2104');"></button>
+                <button class="tile 2204" onclick="requestToggle('2204');"></button>
+                <button class="tile 2304" onclick="requestToggle('2304');"></button>
+            </section>
+        </section>
+        <p id="statusmessage">Select an LED to toggle.</p>
+        <p>This project was inspired by Reddit's April 1 art project <a href="https://www.reddit.com/r/place/" target="_blank">Place</a> (<a href="https://redditblog.com/2017/04/13/how-we-built-rplace/" target="_blank">about</a>). I decided to make a more tangible version; this one uses <a href="https://www.boldport.com/products/the-matrix/" target="_blank">The Matrix</a> and a <a href="https://www.particle.io/products/hardware/photon-wifi-dev-kit" target="_blank">Particle Photon</a> to toggle real life LEDs in my kitchen.</p>
+        <p>While this is no longer live, you can <a href="https://www.joeyhagedorn.com/2017/04/22/placematrix-how-it-works.html">read about the project here</a>, and click around the simulated page.</p>
+        <footer>
+            <p><center>Created by <a href="https://www.joeyhagedorn.com" target="_blank">Joey Hagedorn</a>. Special thanks to <a href="http://charliedeets.com" target="_blank">Charlie Deets</a>, <a href="https://www.reddit.com">Reddit</a>, and <a href="http://www.boldport.club">Boldport Club</a>.</center></p>
+            <p><center></span> <a href="static/privacypolicy.html">Privacy</a> | <script type="text/javascript"><!--
+            var a='joe';var b='y@joeyhage';
+            var c='dorn.com';
+            document.write("<a href='mailto:"+a+b+c+"'>"+"Contact"+"</a>");
+            -->
+        </script></center></p>
+        </footer>
+        <!-- Google Analytics -->
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-307571-6', 'auto');
+            ga('send', 'pageview');
+        </script>
+    </body>
+</html>
